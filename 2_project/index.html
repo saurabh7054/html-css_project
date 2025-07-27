@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Job Application</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+      <div class="apply_box">
+         <h1>Job Application
+            <span class="span_small">(web)</span>
+         </h1>
+         <form action="">
+            <div class="form_container">
+               <div class="form_control">
+                    <label for="first_name">First Name</label>
+                    <input
+                        id="first_name"
+                        name="first_name"
+                        placeholder="Enter first name..."
+                    />
+               </div>
+               <div class="form_control">
+                    <label for="last_name">Last Name</label>
+                    <input
+                        id="last_name"
+                        name="last_name"
+                        placeholder="Enter last name..."
+                    />
+               </div>
+               <div class="form_control">
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter email..."
+                    />
+               </div>
+               <div class="form_control">
+                    <label for="job_role">Job Role</label>
+                    <select id="job_role" name="job_role">
+                         <option value=""> Slect Job Role</option>
+                         <option value="front_end"> Front End</option>
+                         <option value="back_end"> Back End</option>
+                         <option value="data_science"> Data Science</option>
+                         <option value="cyber_security">Cyber Security</option>
+                         <option value="ethical_hacking"> Ethical Hacking</option>
+                    </select>
+               </div>
+               <div class="form_control">
+                    <label for="Address">Address</label>
+                    <textarea 
+                    id = "Address" 
+                    name="Address" 
+                    rows="4" 
+                    cols="50"
+                    placeholder="Enter Address...">
+                    </textarea>
+               </div>
+               <div class="form_control">
+                    <label for="city_name">City Name</label>
+                    <input
+                        id="city_name"
+                        name="city_name"
+                        placeholder="Enter city name..."
+                    />
+               </div>
+               <div class="form_control">
+                    <label for="pincode">Pincode</label>
+                    <input
+                        type="number"
+                        id="pincode"
+                        name="pincode"
+                        placeholder="Enter pincode..."
+                    />
+               </div>
+               <div class="form_control">
+                    <label for="date">Date</label>
+                    <input
+                        value="16-7-2025"
+                        type="date"
+                        id="date"
+                        name="date"
+                    />
+               </div>
+               <div class="form_control">
+                    <label for="upload">Upload your CV</label>
+                    <input
+                        type="file"
+                        id="upload"
+                        name="upload"
+                    />
+               </div>
+            </div>
+            <div class="button_container">
+               <button type="submit"> Apply Now</button>
+            </div>
+         </form>
+      </div>
+   </div>
+   
+</body>
+</html>
