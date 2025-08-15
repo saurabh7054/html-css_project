@@ -1,4 +1,4 @@
-HTML CSS 10 PRACTICE PROJECT
+# HTML CSS 10 PRACTICE PROJECT
 
 Project that I have built in this complete practice series:
 
